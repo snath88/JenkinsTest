@@ -1,3 +1,6 @@
+//bat mvn clean insatll will not work as maven not installed in local system
+//run maven via jenkins only
+
 pipeline{
 agent any
  tools {
@@ -24,3 +27,4 @@ bat "mvn install"
 }
 
 }
+
